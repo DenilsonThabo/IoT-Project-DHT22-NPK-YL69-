@@ -9,14 +9,14 @@
  * Versão: 2.0 - TTGO T-Call
  */
 
-#define BLYNK_TEMPLATE_ID "TMPL2WJo_xVbr"
+#define BLYNK_TEMPLATE_ID "#########"
 #define BLYNK_TEMPLATE_NAME "Monitoramento das Características do Solo"
 #define BLYNK_PRINT Serial
 
 // ==================== SELEÇÃO DE MODO ====================
 // Descomente APENAS UMA das linhas abaixo:
 #define USE_WIFI_MODE      // Usar WiFi
-//#define USE_GPRS_MODE      // Usar GPRS/GSM
+#define USE_GPRS_MODE      // Usar GPRS/GSM
 
 // ==================== BIBLIOTECAS ====================
 #ifdef USE_WIFI_MODE
@@ -61,11 +61,11 @@
 
 // ==================== CONFIGURAÇÕES ====================
 // Credenciais WiFi
-char ssid[] = "MaleSWF";
-char pass[] = "12malesoft2014";
+char ssid[] = "#########";
+char pass[] = "################";
 
 // Credenciais Blynk
-char auth[] = "JhzgXbA1QOKAU3xT2cEBTqjuETD_P0tB";
+char auth[] = "#############";
 
 // Configurações GPRS
 const char apn[] = "internet";           // Movitel/Vodacom
@@ -73,7 +73,7 @@ const char gprsUser[] = "";
 const char gprsPass[] = "";
 
 // Número para SMS (formato internacional)
-const char phoneNumber[] = "+258866419335";
+const char phoneNumber[] = "++258 123456789";
 
 // ==================== CALIBRAÇÃO SENSOR DE HUMIDADE ====================
 int Vseco = 3984;      // Valor ADC em solo seco
